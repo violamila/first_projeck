@@ -1,0 +1,11 @@
+p#P1{
+    font-size: 30px;
+    color: blueviolet;
+    font-style: oblique;
+}
+
+p#P2{
+    font-size: 50px;
+    font-variant: initial;
+    color: red;
+}
