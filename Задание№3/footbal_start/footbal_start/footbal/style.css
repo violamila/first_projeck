@@ -264,6 +264,10 @@ header .line{
 	color:#fff;
 }
 
+.container3 .block3 .text_center span{
+	color:#9171ea;
+}
+
 article .activ{
 	display: block;
 	float: left;
@@ -328,6 +332,7 @@ article .square a,article .square2 a,article .square3 a{
 	margin-left: 71px;
 	font-family:'Proxima Nova Bold' ;
 	padding-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 article .right_text2{
@@ -396,7 +401,7 @@ footer h2{
 	font-size: 90px;
 	font-family: 'Proxima Nova Bold';
 	color: #fff;
-	margin-top: -70vh;
+	margin-top: -95vh;
 	margin-left: 500px;
 }
 
@@ -404,7 +409,7 @@ footer h2 span{
 	font-size: 28px;
 	font-family: 'Proxima Nova Bold';
 	color: #9171ea;
-	margin-top: -50vh;
+	padding-top: 80px;
 }
 
 footer .buttons{
@@ -446,50 +451,175 @@ footer .buttons a:hover{
 }
 
 footer .line{
-	margin-left: 200px;
-	margin-top: -250px;
+	margin-left: 100px;
+	margin-top: 150px;
+}
 
+footer .pin{
+	margin-left: -150px;
+	margin-top: -600px;
+}
 
-@media(min-heigth: 960px){
-		header h1{
-			margin-top: 218px;
-		}
+footer .list{
+	padding-left: 47%;
+	padding-top: 50px;
+}
 
-	}	
+footer .lilist li{
+	display: inline-block;
+}
 
-@media(max-width:1550px){
-	.container2 img{
-		margin-left:0;
+footer .lilist li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 5px;
+}
+
+footer .lilist a:hover{
+	color: #5e42b0;
+	background-color: #fff;
+}
+
+footer .dark{
+	position: relative;
+	background: rgba(13, 13, 44, 0.7);
+	width: 100%;
+	height: 120px;
+	margin-top: 165px;
+}
+
+footer .logo2{
+	height: 20px;
+	width: 120px;
+	margin-left: 30px;
+	margin-top: -30px;
+}
+
+footer h3{
+	font-family: 'Proxima Nova Bold';
+	font-size: 17px;
+	color: #fff;
+	margin-left: 1250px;
+	margin-top: -30px;
+}
+
+footer .line_short{
+	margin-left: 500px;
+	margin-top: -400px;
+}
+
+footer .line_long{
+	margin-left: 750px;
+	margin-top: -300px;
+}
+
+@media(min-height: 960px){
+	header h1{
+		margin-top: 305px;
+	}
+	header .buttons{
+		margin-top: 220px;
 	}
 }
 
-@media(max-width: 1250px;){
+@media(max-width: 1550px){
+	.container2 img{
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 1250px){
 	header h1, .container2 .block1 h2{
 		font-size: 70px;
 	}
 	.container2 img{
 		width: 50%;
 	}
+	.container3 img{
+		width: 50%;
+	}
 }
 
-@media(max-width: 1024px;){
-	header h1, .container2 .block1 h2{
+@media(max-width: 1024px){
+	header h1, .container2 .block1 h2,.container3 .block1 h2{
 		font-size: 56px;
 	}
 	header .menu li a{
 		padding: 0 10px;
 	}
+	article h2{
+		font-size: 50px;
+	}
+	footer .up{
+		width: 100px;
+		height: 100px;
+	}
 }
 
-@media(max-width: 768px;){
-	header h1, .container2 .block1 h2{
+@media(max-width: 768px){
+	header h1, .container2 .block1 h2, .container3 .block1 h2{
 		font-size: 44px;
 	}
 	header .menu li a{
 		padding: 0 5px;
+	}
+	header .buttons a{
+		display: block;
+		margin: 0 auto;
+	}
+	header .buttons a:first-child{
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
 }
 
-@media(max-width: 425px;){
+@media(max-width: 576px){
+	header h1, .container2 .block1 h2, .container3 .block1 h2{
+		font-size: 33px;
+	}
+	.container2 img{
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+	}
+	.container3 img{
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+	}
+	article .left{
+		margin-left: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+		width: 100%;
+		max-height: 30px;
+	}
+	article .right{
+		height: 15px;
+		width: 100%;
+	}
+	article .square, article .square2, article .square3{
+		width: 20%;
+		height: 12%;
+	}
+	article .square a, article .square2 a, article .square3 a{
+		display: block;
+		margin: auto;
+	}
+		article .square{
+		margin-top: 1px;
+		margin-left: 1px;
+	}
+}
+
+@media(max-width: 425px){
 	header h1 span{
 		float: none;
 	}
@@ -505,10 +635,9 @@ footer .line{
 		margin-top: 15vh;
 	}
 	header .buttons{
-		margin-top: 15vh;
+		margin-top: 20vh;
 	}
 	header{
 		background-position-x: 45%;
 	}
 }
-	
