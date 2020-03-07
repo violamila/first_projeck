@@ -188,10 +188,11 @@ header .line{
 .container2 .text_center span{
 	font-size: 18px;
 	border-bottom: 5px solid #5e42b0;
-	color: #000;
+	color: rgb(0, 0, 0);
 	position: relative;
 	top: -10px;
 }
+
 
 .container2 .text_bottom{
 	font-size: 20px;
@@ -264,13 +265,17 @@ header .line{
 	color:#fff;
 }
 
+.container3 .block3 .text_center span{
+	color:#9171ea;
+}
+
 article .activ{
 	display: block;
 	float: left;
 	width: 50%;
 	max-height: 730px;
 	height: 100vh;
-	padding-top: -100px;
+	padding-top: 168px;
 }
 
 article .contact{
@@ -279,7 +284,7 @@ article .contact{
 	width: 50%;
 	max-height: 730px;
 	height: 100vh;
-	padding-top: 730px;
+	padding-top: 900px;
 }
 
 article .work{
@@ -295,22 +300,22 @@ article .square{
 	position: absolute;
 	left: 50%;
 	margin-left: -84px;
-	margin-top: 30vh;
-	background-color: #5e42b0;
-	width: 170px;
-	height: 160px;
-}
-
-article .square2{
-	position: absolute;
-	right: 45%;
-	background-color: #5e42b0;
 	margin-top: 130vh;
+	background-color: #5e42b0;
 	width: 170px;
 	height: 160px;
 }
 
 article .square3{
+	position: absolute;
+	right: 45%;
+	background-color: #5e42b0;
+	margin-top: 315vh;
+	width: 170px;
+	height: 160px;
+}
+
+article .square2{
 	position: absolute;
 	left: 45%;
 	background-color: #5e42b0;
@@ -336,8 +341,8 @@ article .right_text2{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 80px;
 	color: #e6e6e6;
-	margin-left: 900px;
-	margin-top: 270px;
+	margin-left: 400px;
+	margin-top: 1050px;
 }
 
 article .right_text3{
@@ -345,8 +350,8 @@ article .right_text3{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 80px;
 	color: #e6e6e6;
-	margin-left: 95px;
-	margin-top: 1050px;
+	margin-left: -400px;
+	margin-top: 1760px;
 }
 
 article .right_text4{
@@ -354,8 +359,8 @@ article .right_text4{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 80px;
 	color: #e6e6e6;
-	margin-left: 900px;
-	margin-top: 1760px;
+	margin-left: 400px;
+	margin-top: 2520px;
 }
 
 article .black_text2{
@@ -363,7 +368,7 @@ article .black_text2{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 24px;
 	color: black;
-	margin-top: 450px;
+	margin-top: 1250px;
 	margin-left: 900px;
 }
 
@@ -372,8 +377,8 @@ article .black_text3{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 24px;
 	color: black;
-	margin-top: 1200px;
-	margin-left: 150px;
+	margin-top: 1950px;
+	margin-left: 200px;
 }
 
 article .black_text4{
@@ -381,40 +386,40 @@ article .black_text4{
 	font-family:'Proxima Nova Bold' ;
 	font-size: 24px;
 	color: black;
-	margin-top: 1900px;
+	margin-top: 2700px;
 	margin-left: 900px;
 }
 
 
 
-footer .ex{
+article .ex{
 	max-width: 1920px;
 	margin: 0 auto;
 	width: 100%;
 	}
 
-footer h2{
+article h2{
 	font-size: 90px;
 	font-family: 'Proxima Nova Bold';
 	color: #fff;
-	margin-top: -80vh;
+	margin-top: -95vh;
 	margin-left: 500px;
 }
 
-footer h2 span{
+article h2 span{
 	font-size: 28px;
 	font-family: 'Proxima Nova Bold';
 	color: #9171ea;
-	margin-top: -50vh;
+	padding-top: 80px;
 }
 
-footer .buttons{
+article .buttons{
 	clear: both;
 	text-align: center;
-	margin-top: 10vh;
+	margin-top: 80px;
 }
 
-footer .buttons a{
+article .buttons a{
 	color: #fff;
 	text-decoration: none;
 	display: inline-block;
@@ -425,39 +430,40 @@ footer .buttons a{
 	border-radius: 40px;
 }
 
-footer .buttons a i{
+article .buttons a i{
 	font-size: 37px;
 	margin-right: 20px;
 	position: relative;
 	top: 15px;
 }
 
-footer .buttons a span{
+article .buttons a span{
 	margin-left: 52px;
 	font-family: 'Proxima Nova SemiBold';
 }
 
-footer .buttons a:first-child{
+article .buttons a:first-child{
 	margin-right: 50px;
 }
 
-footer .buttons a:hover{
+article .buttons a:hover{
 	color: #5e42b0;
 	background-color: #fff;
 }
 
-footer .line{
+article .line{
 	margin-left: 100px;
 	margin-top: 150px;
 }
 
-footer .pin{
+article .pin{
 	margin-left: -150px;
-	margin-top: -600px;
-	}
+	margin-top: 100px;
+}
 
-footer .lilist{
-	clear: both;
+footer .list{
+	padding-left: 47%;
+	padding-top: 50px;
 }
 
 footer .lilist li{
@@ -469,50 +475,514 @@ footer .lilist li a{
 	color: #fff;
 	font-size: 20px;
 	padding: 0 5px;
-	text-transform: uppercase;
-	font-weight: 500px;
 }
 
-@media(min-heigth: 960px){
-		header h1{
-			margin-top: 218px;
-		}
+footer .lilist a:hover{
+	color: #fff;
+	color: #5e42b0;
+}
 
-	}	
+footer .dark{
+	position: relative;
+	background: rgba(13, 13, 44, 0.7);
+	width: 100%;
+	height: 120px;
+	margin-top: 95px;
+}
 
-@media(max-width:1550px){
-	.container2 img{
-		margin-left:0;
+footer .logo2{
+	height: 20px;
+	width: 120px;
+	margin-left: 30px;
+	margin-top: -30px;
+}
+
+footer h3{
+	font-family: 'Proxima Nova Bold';
+	font-size: 17px;
+	color: #fff;
+	margin-left: 1250px;
+	margin-top: -30px;
+}
+
+article .line_short{
+	margin-left: 450px;
+	margin-top: -400px;
+}
+
+article .line_long{
+	margin-left: 750px;
+	margin-top: -300px;
+}
+
+article h2 .pp{
+	position: absolute;
+	margin-top: 200px;
+}
+
+@media(min-height: 960px){
+	header h1{
+		margin-top: 305px;
+	}
+	header .buttons{
+		margin-top: 220px;
 	}
 }
 
-@media(max-width: 1250px;){
-	header h1, .container2 .block1 h2{
+@media(max-width: 1920px){
+	.container2 img{
+		margin-left: 0;
+	}
+	.container3 img{
+		width: 65%;
+		height: 840px;
+	}
+	header h1 span{
+		margin-right: 30px;
+	}
+	header .line{
+		margin-left: 400px;
+	}
+	header .right_text{
+		font-size: 20px;
+		margin-right: 5px;
+	}
+	article .left img{
+		max-width: 50%;
+		max-height: 730px;
+		margin-top: 100px;
+	}
+	.style1 .left .activ{
+		max-width: 50%;
+		margin-top: -85px;
+	}
+	article .right_text2{
+		margin-top: 900px;
+		font-size: 110px;
+		margin-left: 600px;
+	}
+	article .black_text2{
+		margin-top: 1100px;
+		font-size: 36px;
+		margin-left: 1100px;
+	}
+	article .contact{
+		margin-top: -125px;
+	}
+	article .square2{
+		margin-top: 1500px;
+	}
+	article .right_text3{
+		margin-top: 1550px;
+		font-size: 110px;
+		margin-left: -440px;
+	}
+	article .black_text3{
+		margin-top: 1750px;
+		font-size: 36px;
+	}
+	article .work{
+		margin-top: -40px;
+	}
+	article .square3{
+		margin-top: 2200px;
+	}
+	article .right_text4{
+		margin-top: 2250px;
+		font-size: 110px;
+		margin-left: 600px;
+	}
+	article .black_text4{
+		margin-top: 2500px;
+		font-size: 36px;
+		margin-left: 1100px;
+	}
+	article h2 .pp{
+		position: absolute;
+		margin-top: 10px;
+		font-size: 100px;
+		margin-left: 200px;
+	}
+	article .pin{
+		margin-top: -110px;
+		margin-left: 30px;
+		width: 160px;
+		height: 160px;
+	}
+	article h2 span{
+		margin-top: -50px;
+		font-size: 35px;
+		margin-left: -10px;	
+	}
+	article .buttons a{
+		width: 180px;
+	}
+	article .line_short{
+		margin-left: 700px;
+		margin-top: -170px;
+	}
+	article .line_long{
+		margin-left: 250px;
+		margin-bottom: 20px;
+	}
+	footer .dark{
+		height: 160px;
+		margin-top: 120px;
+	}
+	footer .logo2{
+		height: 30px;
+		width: 180px;
+		margin-right: 150px;
+	}
+	footer h3{
+		margin-left: 1550px;
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 1550px){
+	.container2 img{
+		margin-left: 0;
+	}
+	.container3 img{
+		width: 65%;
+		height: 840px;
+	}
+	header h1 span{
+		margin-right: 30px;
+	}
+	header .right_text{
+		margin-right: 10px;
+	}
+	article .left img{
+		max-width: 50%;
+		margin-top: 100px;
+	}
+	.style1 .left .activ{
+		max-width: 50%;
+		margin-top: -85px;
+	}
+	article .right_text2{
+		margin-top: 900px;
+	}
+	article .black_text2{
+		margin-top: 1050px;
+	}
+	article .contact{
+		margin-top: -165px;
+	}
+	article .square2{
+		margin-top: 1500px;
+	}
+	article .right_text3{
+		margin-top: 1550px;
+	}
+	article .black_text3{
+		margin-top: 1750px;
+	}
+	article .work{
+		margin-top: -80px;
+	}
+	article .square3{
+		margin-top: 2200px;
+	}
+	article .right_text4{
+		margin-top: 2250px;
+	}
+	article .black_text4{
+		margin-top: 2350px;
+	}
+	article h2 .pp{
+		margin-top: 65px;
+	}
+	article .pin{
+		margin-top: -40px;
+	}
+	footer h3{
+		margin-right: 150px;
+	}
+}
+
+@media(max-width: 1390px){
+	header .right_text{
+		margin-right: 40px;
+	}
+	header h1, header h1 span{
 		font-size: 70px;
 	}
+	header h1 span{
+		margin-right: 55px;
+	}
+	header .menu{
+		margin-right: 55px;
+	}
 	.container2 img{
-		width: 50%;
+		width: 40%;
+	}
+	.container3 img{
+		height: 40%;
+		margin-right: 50px;
+	}
+	.center{
+		margin-left: 80px;
+	}
+	.style1 .left .activ{
+		max-width: 50%;
+		margin-top: 147px;
+	}
+	article .right_text2{
+		margin-top: 900px;
+		font-size: 70px;
+	}
+	article .black_text2{
+		margin-top: 1050px;
+	}
+	article .contact{
+		margin-top: 65px;
+	}
+	article .square2{
+		margin-top: 1500px;
+	}
+	article .right_text3{
+		margin-top: 1550px;
+		font-size: 70px;
+	}
+	article .black_text3{
+		margin-top: 1750px;
+	}
+	article .work{
+		margin-top: -80px;
+	}
+	article .square3{
+		margin-top: 2200px;
+	}
+	article .right_text4{
+		margin-top: 2250px;
+		font-size: 70px;
+		margin-left: 320px;
+	}
+	article .black_text4{
+		margin-top: 2400px;
+		margin-left: 800px;
+	}
+	article h2 .pp{
+		margin-top: 65px;
+	}
+	article .pin{
+		margin-top: -40px;
+	}
+	article .line_long{
+		width: 35vh;
+	}
+	footer h3{
+		margin-left: 1100px;
 	}
 }
 
-@media(max-width: 1024px;){
-	header h1, .container2 .block1 h2{
+
+@media(max-width: 1250px){
+	header h1, .container2 .block1 h2, .container3 .block1 h2{
+		font-size: 70px;
+	}
+	header .right_text{
+		margin-right: 80px;
+	}
+	header .line{
+		max-width: 0px;
+	}
+	header h1, header h1 span{
+		font-size: 60px;
+	}
+	header h1 span{
+		margin-right: 70px;
+	}
+	header .buttons{
+		max-height: 50%;
+	}
+	header .menu{
+		margin-right: 55px;
+	}
+	.container2 img{
+		width: 40%;
+	}
+	.container3 img{
+		height: 40%;
+		margin-right: 50px;
+	}
+	.center{
+		margin-left: 80px;
+	}
+	.style1 .left .activ{
+		max-width: 50%;
+		margin-top: 175px;
+	}
+	article .right_text2{
+		margin-top: 900px;
+		font-size: 70px;
+		margin-left: 200px;
+	}
+	article .black_text2{
+		margin-top: 1050px;
+		margin-left: 750px;
+	}
+	article .contact{
+		margin-top: 130px;
+		max-width: 50%;
+	}
+	article .square{
+		width: 140px;
+		height: 130px;
+	}
+	article .square2{
+		margin-top: 1500px;
+		width: 140px;
+		height: 130px;
+	}
+	article .right_text3{
+		margin-top: 1550px;
+		font-size: 70px;
+		margin-left: -450px;
+	}
+	article .black_text3{
+		margin-top: 1750px;
+		margin-left: 100px;
+	}
+	article .work{
+		margin-top: -45px;
+		max-width: 50%;
+	}
+	article .square3{
+		margin-top: 2200px;
+		width: 140px;
+		height: 130px;
+	}
+	article .square a, article .square2 a, article .square3 a {
+		position: absolute;
+		margin-left: 55px;
+		margin-top: 55px;
+	}
+	article .right_text4{
+		margin-top: 2250px;
+		font-size: 70px;
+		margin-left: 220px;
+	}
+	article .black_text4{
+		margin-top: 2400px;
+		margin-left: 650px;
+	}
+	article h2 .pp{
+		margin-top: 165px;
+		font-size: 60px;
+	}
+	article .buttons a{
+		width: 160px;
+		height: 45px;
+	}
+	article .pin{
+		margin-top: 80px;
+	}
+	article .line_long, article .line_short{
+		width: 0vh;
+	}
+	footer .dark{
+		height: 80px;
+		margin-top: 80px;
+	}
+	footer .logo2{
+		margin-bottom: 50px;
+	}
+	footer h3{
+		margin-left: 850px;
+		margin-top: -75px;
+	}
+	footer .list{
+		margin-bottom: -20px;
+	}
+	footer .lilist li{
+		margin-top: -35px;
+		margin-left: 8px;
+	}
+}
+
+@media(max-width: 1024px){
+	header h1, .container2 .block1 h2,.container3 .block1 h2{
 		font-size: 56px;
 	}
 	header .menu li a{
 		padding: 0 10px;
 	}
+	article h2{
+		font-size: 50px;
+	}
+	footer .up{
+		width: 100px;
+		height: 100px;
+	}
 }
 
-@media(max-width: 768px;){
-	header h1, .container2 .block1 h2{
+@media(max-width: 768px){
+	header h1, .container2 .block1 h2, .container3 .block1 h2{
 		font-size: 44px;
 	}
 	header .menu li a{
 		padding: 0 5px;
+	}
+	header .buttons a{
+		display: block;
+		margin: 0 auto;
+	}
+	header .buttons a:first-child{
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
 }
 
-@media(max-width: 425px;){
+@media(max-width: 576px){
+	header h1, .container2 .block1 h2, .container3 .block1 h2{
+		font-size: 33px;
+	}
+	.container2 img{
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+	}
+	.container3 img{
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+	}
+	article .left{
+		margin-left: auto;
+		float: none;
+		display: block;
+		margin-top: 0;
+		width: 100%;
+		max-height: 30px;
+	}
+	article .right{
+		height: 15px;
+		width: 100%;
+	}
+	article .square, article .square2, article .square3{
+		width: 20%;
+		height: 12%;
+	}
+	article .square a, article .square2 a, article .square3 a{
+		display: block;
+		margin: auto;
+	}
+		article .square{
+		margin-top: 1px;
+		margin-left: 1px;
+	}
+}
+
+@media(max-width: 425px){
 	header h1 span{
 		float: none;
 	}
@@ -528,10 +998,9 @@ footer .lilist li a{
 		margin-top: 15vh;
 	}
 	header .buttons{
-		margin-top: 15vh;
+		margin-top: 20vh;
 	}
 	header{
 		background-position-x: 45%;
 	}
 }
-	
